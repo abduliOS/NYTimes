@@ -92,8 +92,6 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
            return UITableViewCell()
        }
     
-    let presenter = self()
-
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
        
